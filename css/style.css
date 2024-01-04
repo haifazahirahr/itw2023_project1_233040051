@@ -236,12 +236,14 @@ body {
 /* About Section */
 .about,
 .katalog,
+.custom,
 .contact {
   padding: 8rem 7% 1.4rem;
 }
 
 .about h2,
 .katalog h2,
+.custom h2,
 .contact h2 {
   text-align: center;
   font-size: 2rem;
@@ -250,6 +252,7 @@ body {
 
 .about h2 span,
 .katalog h2 span,
+.custom h2 span,
 .contact h2 span {
   color: var(--primary);
 }
@@ -292,6 +295,7 @@ body {
 }
 
 .katalog P,
+.custom p,
 .contact p {
   text-align: center;
   max-width: 30rem;
@@ -300,7 +304,8 @@ body {
   line-height: 1.6;
 }
 
-.katalog .row {
+.katalog .row,
+.custom .row {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5rem;
@@ -343,6 +348,15 @@ body {
 }
 .katalog .row .katalog-card .katalog-card-title {
   margin: 1rem auto 0.5rem;
+}
+
+/* Custom Section */
+.custom img {
+  border-radius: 50%;
+}
+
+.custom h3 {
+  margin-left: 40%;
 }
 
 /* Contact Section */
