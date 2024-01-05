@@ -20,6 +20,7 @@ body {
   font-family: "spectral", sans-serif;
   background-color: var(--bg);
   color: #843f5b;
+  overflow-x: hidden;
 }
 
 /* Navbar */
